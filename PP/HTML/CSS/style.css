@@ -1,0 +1,261 @@
+
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /*Imagen de fondo*/   
+      background-image: url('../img/Fondo.png');
+      background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+      background-position: center; /* Centra la imagen en el fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+}
+
+.bi {
+   margin-right: 5%;
+   height: 15px;
+   width: 15px;
+   fill: white;
+}
+
+.black {
+      color: black;
+}
+
+.navbar {
+   background-color:rgb(173, 173, 173,0.75);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-brand {
+   display: inline-block; /* Esto permite que el contenedor ajuste su tamaño al contenido */
+   margin: 0;
+   padding: 0;
+}
+
+.logo {
+   display: block; /* Elimina el espacio en blanco debajo de la imagen */
+   max-width: 100%; /* Asegura que la imagen no se desborde */
+   height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+.dropdown-menu {
+   right: 0;
+   left: auto;
+}
+
+.dropdown-item {
+   text-align: right;
+}
+
+.nav-link {
+   text-align: right;
+}
+
+.logo {
+   width: 20%;
+   height: 10%;
+}
+
+.carousel-indicators {
+   background-color:rgba(0, 0, 0, 0.5);
+   border-radius: 30px;
+}
+
+.carousel-conteiner {
+      margin-top: 70px;
+      max-height: 500px;
+}
+
+.carousel-inner img {
+   height: 80%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+.carousel-item {
+   height: 400px;
+   overflow: hidden;
+}
+
+.carousel-caption {
+   color: black;
+}
+
+.carousel-control-prev-icon {
+   background-color: rgba(0,0,0,0.75);
+   border-radius: 10px;
+}
+.carousel-control-next-icon {
+   background-color: rgba(0,0,0,0.75);
+   border-radius: 10px;
+}
+
+.separator {
+   height: 0;  
+   border: 0;
+   border-top: 5px double grey;
+   margin: 20px 0;
+}
+
+.titulo {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: auto;
+   margin-left: 2%;
+}
+
+.accordion{
+   padding-right: 5%;
+   padding-top: 1%;
+   padding-left: 2%;
+}
+
+.map {
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 5%;
+   border-radius: 20px;
+}
+
+.container {
+   max-width: 80%;
+   margin: 0 auto;
+   margin-bottom: 5%;
+}
+
+.fab {
+   color: #000;
+   text-decoration: none;
+   justify-content: center;
+}
+
+.fab:hover {
+   color: #007bff;
+}
+
+.icon-container {
+   display: flex;
+   justify-content: center; /* Centra los íconos horizontalmente */
+   margin-top: 20px; /* Espaciado opcional */
+}
+
+.icon-container a {
+   text-decoration: none; /* Quitar subrayado */
+   color: #000; /* Color de los íconos */
+   font-size: 50px; /* Tamaño de los íconos */
+   margin: 0 10px; /* Espaciado entre íconos */
+}
+
+.icon-container a:hover {
+   color: #007bff; /* Color al pasar el ratón */
+}
+
+.whatsapp-button {
+   position: fixed;
+   bottom: 20px; /* Espacio desde el borde inferior */
+   right: 20px; /* Espacio desde el borde derecho */
+   z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+.whatsapp-button a {
+   display: block;
+   width: 60px; /* Tamaño de la burbuja */
+   height: 60px;
+   background-color: #25D366; /* Color de fondo de WhatsApp */
+   border-radius: 50%; /* Hacer que el botón sea circular */
+   text-align: center;
+   line-height: 60px; /* Centrar el ícono verticalmente */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+   transition: background-color 0.3s; /* Transición de color */
+}
+
+.whatsapp-button a:hover {
+   background-color: #128C7E; /* Color al pasar el ratón */
+}
+
+.whatsapp-button i {
+   color: #fff; /* Color del ícono */
+   font-size: 24px; /* Tamaño del ícono */
+}
+
+/* Estilos para el botón de volver al principio */
+#back-to-top {
+   position: fixed;
+   bottom: 20px; /* Distancia desde el borde inferior */
+   left: 20px; /* Distancia desde el borde izquierdo */
+   display: none; /* Oculta el botón por defecto */
+   background-color: rgba(173, 173, 173, 0.75); /* Color de fondo con transparencia */
+   color: white; /* Color del texto (aunque en este caso es la imagen) */
+   border: none; /* Sin borde */
+   border-radius: 50%; /* Bordes redondeados */
+   width: 50px; /* Ancho del botón */
+   height: 50px; /* Alto del botón */
+   text-align: center; /* Centra el contenido horizontalmente */
+   line-height: 35px; /* Centra el contenido verticalmente */
+   font-size: 24px; /* Tamaño del texto (no aplicable si solo usas imagen) */
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra del botón */
+   cursor: pointer; /* Cursor de puntero */
+   transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+ }
+ 
+ /* Estilo del botón al pasar el ratón */
+ #back-to-top:hover {
+   background-color: #0056b3; /* Color de fondo al pasar el ratón */
+   transform: scale(1.1); /* Aumenta el tamaño ligeramente al pasar el ratón */
+ }
+ 
+ /* Estilo para la imagen dentro del botón */
+ #back-to-top img {
+   width: 24px; /* Ancho de la imagen */
+   height: 24px; /* Alto de la imagen */
+   vertical-align: middle; /* Alinea la imagen verticalmente */
+ }
+ 
+ .card-container {
+   display: flex;
+   overflow-x: auto; /* Permite el desplazamiento horizontal */
+   scroll-behavior: smooth; /* Suaviza el desplazamiento */
+   padding: 10px 0; /* Espaciado vertical */
+   gap: 10px; /* Espacio entre tarjetas */
+   width: 100%; /* Ancho del contenedor */
+   max-width: 97%; /* Máximo ancho para mostrar solo 3 tarjetas */
+   position: relative; /* Para posicionar los botones */
+}
+
+.card {
+   min-width: 200px; /* Ancho mínimo de cada tarjeta */
+   max-width: 200px;
+   flex: 0 0 auto; /* Evita que las tarjetas se reduzcan */
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+/* Ocultar la barra de desplazamiento en algunos navegadores */
+.card-container::-webkit-scrollbar {
+   display: none; /* Para Chrome, Safari y Opera */
+}
+.button-container-s, .button-container-v, .button-container-p {
+   position:absolute;
+   margin-top: 20px;
+   width: 100%;
+   display: float;
+   justify-content: space-between;
+   transform: translateY(-50%);
+   left: 43%;
+}
