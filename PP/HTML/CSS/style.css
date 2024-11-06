@@ -42,9 +42,14 @@ body{
 }
 
 .navbar-brand {
-   display: inline-block; /* Esto permite que el contenedor ajuste su tamaño al contenido */
+   display: contents; /* Esto permite que el contenedor ajuste su tamaño al contenido */
    margin: 0;
    padding: 0;
+   width: auto;
+}
+.collapse{
+   height: 100%;
+   width: 100%;
 }
 
 .logo {
@@ -227,35 +232,60 @@ body{
  }
  
  .card-container {
-   display: flex;
-   overflow-x: auto; /* Permite el desplazamiento horizontal */
+   display:flex;
+   overflow-x: scroll; /* Permite el desplazamiento horizontal */
    scroll-behavior: smooth; /* Suaviza el desplazamiento */
    padding: 10px 0; /* Espaciado vertical */
    gap: 10px; /* Espacio entre tarjetas */
    width: 100%; /* Ancho del contenedor */
-   max-width: 97%; /* Máximo ancho para mostrar solo 3 tarjetas */
+   max-width: 1250px; /* Máximo ancho para mostrar solo 6 tarjetas */
    position: relative; /* Para posicionar los botones */
 }
 
+.container{
+   position: relative;
+   overflow: visible; /*Permite que el contenido se desborde, pero rompe la estructura de las tarjetas */
+}
+
 .card {
-   min-width: 200px; /* Ancho mínimo de cada tarjeta */
-   max-width: 200px;
+   width: 200px; /* Ancho mínimo de cada tarjeta */
+   height: 200px;
+   overflow: hidden;
+   transition: transform 0.3s ease;
    flex: 0 0 auto; /* Evita que las tarjetas se reduzcan */
    border-radius: 8px;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    text-align: center;
+   z-index: 1;
+}
+
+.card-text{
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.card:hover{
+   transform: scale(1.5);
+   z-index: 10;
+   opacity: 1;
+}
+
+.card:hover .card-text{
+   transform: scale(1.5);
+   z-index: 10;
+   opacity: 1;
 }
 
 /* Ocultar la barra de desplazamiento en algunos navegadores */
 .card-container::-webkit-scrollbar {
    display: none; /* Para Chrome, Safari y Opera */
 }
+
 .button-container-s, .button-container-v, .button-container-p {
-   position:absolute;
+   position:relative;
    margin-top: 20px;
-   width: 100%;
+   width:auto;
    display: float;
    justify-content: space-between;
    transform: translateY(-50%);
-   left: 43%;
 }
