@@ -1,188 +1,158 @@
 export const sahumerios=[
     {
-        name: "Producto 1",
-        description: "Descripción del Producto 1",
-        image: "https://via.placeholder.com/200"
+        name: "Limón",
+        description: "Limpieza energética, Abundancia",
+        image: "../HTML/img/productos/sahumerioLimon.png"
     },
     {
-        name: "Producto 2",
-        description: "Descripción del Producto 2",
-        image: "https://via.placeholder.com/200"
+        name: "Incienso",
+        description: "Relajación, Creatividad",
+        image: "../HTML/img/productos/sahumerioIncienso.png"
     },
     {
-        name: "Producto 3",
-        description: "Descripción del Producto 3",
-        image: "https://via.placeholder.com/200"
+        name: "Mirra",
+        description: "Meditación, Sanación",
+        image: "../HTML/img/productos/sahumerioMirra.png"
     },
     {
-        name: "Producto 4",
-        description: "Descripción del Producto 4",
-        image: "https://via.placeholder.com/200"
+        name: "Bombitas",
+        description: "Mismos aromas que los sahumerios",
+        image: "../HTML/img/productos/sahumerioBombita.jpeg"
     },
     {
-        name: "Producto 5",
-        description: "Descripción del Producto 5",
-        image: "https://via.placeholder.com/200"
+        name: "Romero",
+        description: "Protección, Atracción de buenas energías",
+        image: "../HTML/img/productos/sahumerioRomero.png"
     },
     {
-        name: "Producto 6",
-        description: "Descripción del Producto 6",
-        image: "https://via.placeholder.com/200"
+        name: "Naranja Pimienta",
+        description: "Atrae alegría, Enfoque, Abundancia",
+        image: "../HTML/img/productos/sahumerioNarPim.png"
     },
     {
-      name: "Producto 7",
-      description: "Descripción del Producto 1",
-      image: "https://via.placeholder.com/200"
+      name: "Patchouli",
+      description: "Prosperidad, Equilibrio espiritual, Protección",
+      image: "../HTML/img/productos/sahumerioPatchouli.png"
   },
   {
-      name: "Producto 8",
-      description: "Descripción del Producto 2",
-      image: "https://via.placeholder.com/200"
+      name: "Conitos",
+      description: "Mismos aromas que los sahumerios",
+      image: "../HTML/img/productos/sahumerioCono.png"
   },
   {
-      name: "Producto 9",
-      description: "Descripción del Producto 3",
-      image: "https://via.placeholder.com/200"
-  },
-  {
-      name: "Producto 10",
-      description: "Descripción del Producto 4",
-      image: "https://via.placeholder.com/200"
-  },
-  {
-      name: "Producto 11",
-      description: "Descripción del Producto 5",
-      image: "https://via.placeholder.com/200"
-  },
-  {
-      name: "Producto 12",
-      description: "Descripción del Producto 6",
-      image: "https://via.placeholder.com/200"
+      name: "Triángulos",
+      description: "Mismos aromas que los sahumerios",
+      image: "../HTML/img/productos/sahumerioTriang.png"
   }
 ];
 
 export const velas = [
   {
-      name: "Producto 1",
-      description: "Descripción del Producto 1",
-      image: "https://via.placeholder.com/200"
+      name: "Limón",
+      description: "Excelentes para espacios de trabajo y/o estudio.",
+      image: "../HTML/img/productos/velas/velaLimon.png"
   },
   {
-      name: "Producto 2",
-      description: "Descripción del Producto 2",
-      image: "https://via.placeholder.com/200"
+      name: "Reina de la noche",
+      description: "Para crear una atmósfera tranquila en el hogar.",
+      image: "../HTML/img/productos/velas/velaReinaDeLaNoche.png"
   },
   {
-      name: "Producto 3",
-      description: "Descripción del Producto 3",
-      image: "https://via.placeholder.com/200"
+      name: "Rosa Mosqueta",
+      description: "Aroma relajante, equilibrante y buena para el bienestar emocional.",
+      image: "../HTML/img/productos/velas/velaRosaMosq.png"
   },
   {
-      name: "Producto 4",
-      description: "Descripción del Producto 4",
-      image: "https://via.placeholder.com/200"
+      name: "Incienso",
+      description: "Reducen estrés y mejoran el ambiente del hogar.",
+      image: "../HTML/img/productos/velas/velaIncienso.png"
   },
   {
-      name: "Producto 5",
-      description: "Descripción del Producto 5",
-      image: "https://via.placeholder.com/200"
+      name: "Mirra",
+      description: "Contribuyen a un ambiente mas limpio y relajante.",
+      image: "../HTML/img/productos/velas/velaMirra.png"
   },
   {
-      name: "Producto 6",
-      description: "Descripción del Producto 6",
-      image: "https://via.placeholder.com/200"
+      name: "Lavanda",
+      description: "Son buenas para meditación o antes de dormir.",
+      image: "../HTML/img/productos/velas/velaLavanda.png"
   },
   {
-    name: "Producto 7",
-    description: "Descripción del Producto 1",
-    image: "https://via.placeholder.com/200"
+    name: "Patchouli",
+    description: "Relaja y equilibra el ambiente.",
+    image: "../HTML/img/productos/velas/velaPatchouli.png"
 },
 {
-    name: "Producto 8",
-    description: "Descripción del Producto 2",
-    image: "https://via.placeholder.com/200"
+    name: "Romero",
+    description: "Sirven para estudiar, trabajar o meditar.",
+    image: "../HTML/img/productos/velas/velaRomero.png"
 },
 {
-    name: "Producto 9",
-    description: "Descripción del Producto 3",
-    image: "https://via.placeholder.com/200"
-},
-{
-    name: "Producto 10",
-    description: "Descripción del Producto 4",
-    image: "https://via.placeholder.com/200"
-},
-{
-    name: "Producto 11",
-    description: "Descripción del Producto 5",
-    image: "https://via.placeholder.com/200"
-},
-{
-    name: "Producto 12",
-    description: "Descripción del Producto 6",
-    image: "https://via.placeholder.com/200"
+    name: "Naranja Pimienta",
+    description: "Mejora el ánimo, reduce el estrés y favorece la concentración.",
+    image: "../HTML/img/productos/velas/velaNarPim.png"
 }
 ];
 
 export const piedras = [
     {
-        name: "Producto 1",
-        description: "Descripción del Producto 1",
-        image: "https://via.placeholder.com/200"
+        name: "Amatista",
+        description: "Para meditaciones o promover el sueño.",
+        image: "../HTML/img/productos/Piedras/piedraAmatista.png"
     },
     {
-        name: "Producto 2",
-        description: "Descripción del Producto 2",
-        image: "https://via.placeholder.com/200"
+        name: "Turmalina",
+        description: "Protección y equilibrio emocional.",
+        image: "../HTML/img/productos/Piedras/piedraTurmalina.png"
     },
     {
-        name: "Producto 3",
-        description: "Descripción del Producto 3",
-        image: "https://via.placeholder.com/200"
+        name: "Ojo de Tigre",
+        description: "Brinda protección, equilibrio y confianza.",
+        image: "../HTML/img/productos/Piedras/piedraOjoDeTigre.png"
     },
     {
-        name: "Producto 4",
-        description: "Descripción del Producto 4",
-        image: "https://via.placeholder.com/200"
+        name: "Aguamarina",
+        description: "promueve la serenidad, claridad y la protección.",
+        image: "../HTML/img/productos/Piedras/piedraAguamarina.png"
     },
     {
-        name: "Producto 5",
-        description: "Descripción del Producto 5",
-        image: "https://via.placeholder.com/200"
+        name: "Cuarzos",
+        description: "cristalinos, rosas, verde, blanco y azul.(Sanación)",
+        image: "../HTML/img/productos/Piedras/piedraCuarzo.png"
     },
     {
-        name: "Producto 6",
-        description: "Descripción del Producto 6",
-        image: "https://via.placeholder.com/200"
+        name: "Onix",
+        description: "Útil en meditaciones.",
+        image: "../HTML/img/productos/Piedras/piedraOnix.png"
     },
     {
-      name: "Producto 7",
-      description: "Descripción del Producto 1",
-      image: "https://via.placeholder.com/200"
+      name: "Rodocrosita",
+      description: "Sirve para la sanación.",
+      image: "../HTML/img/productos/Piedras/piedraRodocrosita.png"
   },
   {
-      name: "Producto 8",
-      description: "Descripción del Producto 2",
-      image: "https://via.placeholder.com/200"
+      name: "Ágata",
+      description: "Sirve para atraer la energía positiva.",
+      image: "../HTML/img/productos/Piedras/piedraAgata.png"
   },
   {
-      name: "Producto 9",
-      description: "Descripción del Producto 3",
-      image: "https://via.placeholder.com/200"
+      name: "Sodalita",
+      description: "Ofrece equilibrio, claridad y protección energética.",
+      image: "../HTML/img/productos/Piedras/piedraSodalita.png"
   },
   {
-      name: "Producto 10",
-      description: "Descripción del Producto 4",
-      image: "https://via.placeholder.com/200"
+      name: "Piedra Luna",
+      description: "Balance, protección y crecimiento espiritual.",
+      image: "../HTML/img/productos/Piedras/piedraLuna.png"
   },
   {
-      name: "Producto 11",
-      description: "Descripción del Producto 5",
-      image: "https://via.placeholder.com/200"
+      name: "Pirita",
+      description: "Atrae abundancia y brinda protección energética.",
+      image: "../HTML/img/productos/Piedras/piedraPirita.png"
   },
   {
-      name: "Producto 12",
-      description: "Descripción del Producto 6",
-      image: "https://via.placeholder.com/200"
+    name: "Obsidiana",
+    description: "Proporciona protección y limpieza energética.",
+    image: "../HTML/img/productos/Piedras/piedraObsidiana.png"
   }
-  ];
+];

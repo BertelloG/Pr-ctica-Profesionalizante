@@ -244,7 +244,7 @@ body{
 
 .container{
    position: relative;
-   overflow: visible; /*Permite que el contenido se desborde, pero rompe la estructura de las tarjetas */
+   overflow: hidden; /*Permite que el contenido se desborde, pero rompe la estructura de las tarjetas */
 }
 
 .card {
@@ -265,13 +265,13 @@ body{
 }
 
 .card:hover{
-   transform: scale(1.5);
+   transform: scale(1.05);
    z-index: 10;
    opacity: 1;
 }
 
 .card:hover .card-text{
-   transform: scale(1.5);
+   transform: scale(1.1);
    z-index: 10;
    opacity: 1;
 }
@@ -288,4 +288,7 @@ body{
    display: float;
    justify-content: space-between;
    transform: translateY(-50%);
+}
+.info{
+   text-align: center;
 }

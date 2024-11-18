@@ -43,7 +43,7 @@ function displaySahumerios() {
 
 function scrollCards_S(direction) {
     const s_container = document.getElementById('sahumerios-container');
-    const cardWidth = 2 * s_container.children[0].offsetWidth + 20;
+    const cardWidth = 3 * s_container.children[0].offsetWidth + 30;
 
     if (direction === 'next') {
         s_container.scrollBy({left: cardWidth, behavior: 'smooth'});
@@ -79,7 +79,7 @@ function displayVelas() {
 
 function scrollCards_V(direction) {
   const v_container = document.getElementById('velas-container');
-  const cardWidth = 2 * v_container.children[0].offsetWidth + 20; 
+  const cardWidth = 3 * v_container.children[0].offsetWidth + 30; 
 
   if (direction === 'next') {
       v_container.scrollBy({ left: cardWidth, behavior: 'smooth' });
@@ -116,7 +116,7 @@ function displayPiedras() {
 
 function scrollCards_P(direction) {
   const p_container = document.getElementById('piedras-container');
-  const cardWidth = 2 * p_container.children[0].offsetWidth + 20; 
+  const cardWidth = 3 * p_container.children[0].offsetWidth + 30; 
 
   if (direction === 'next') {
       p_container.scrollBy({ left: cardWidth, behavior: 'smooth' });
